@@ -1,3 +1,6 @@
+html{
+background-image: url('includes/background.jpg');
+}
 h1 {
 	color:blue;
 }
