@@ -1,6 +1,4 @@
-html{
-background-image: url('includes/background.jpg');
-}
+
 h1 {
 	color:blue;
 }
@@ -16,6 +14,7 @@ nav {
 }
 
 body {
+	background-image: url('includes/background.jpg');
 }
 
 footer {
