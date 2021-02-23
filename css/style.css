@@ -1,7 +1,18 @@
 .header {
-  font-family: Tahoma, sans-serif;
-  font-size: 32px;
+	font-family: Tahoma, sans-serif;
+	font-size: 32px;
 }
+.subheader
+{
+	font-family: Tahoma, sans-serif;
+	color:#b5b2b1;
+	font-size: 16px;
+}
+
+.mainbody
+{
+}
+
 head{
 	
 }
@@ -10,7 +21,6 @@ nav {
 }
 
 body {
-	background: url('includes/background.jpg');
 }
 
 footer {
