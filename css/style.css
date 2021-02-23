@@ -10,7 +10,7 @@ nav {
 }
 
 body {
-	background: url(includes/background.jpg);
+	background: url('includes/background.jpg');
 }
 
 footer {
