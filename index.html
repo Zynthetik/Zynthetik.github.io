@@ -9,11 +9,12 @@
         #grad
         {
             height: 200px;
-            background-color: red;
+            margin:0 auto;
             background-image: linear-gradient(white, grey);
         }
     </style>
-           
+</head>
+<body>
     <div id="grad">
     <div class="header">
         <p1>Hey, my name is Patryk Pierzgalski.</p1>
@@ -22,10 +23,17 @@
         <p2> I am a 3rd year undergraduate studying Computer Systems at Heriot-Watt University.</p2>
     </div>
     </div>
-</head>
-<body>
-<div class ="mainbody">
-    <p3> something</p3>
+    <div class="row">
+        <div class="column">
+            <!-- Links-->
+            <p>left</p>
+        </div>
+        <div class="column">
+                <!-- gradient inside out(radial gradient) image on top-->
+            <div id="gradpic">
+            <img src="includes/photo.jpg" alt="Me" width="500" height="500">
+        </div>
+        </div>
     </div>
 <footer>
 

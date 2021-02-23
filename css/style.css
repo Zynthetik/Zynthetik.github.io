@@ -1,22 +1,28 @@
-html
+html, body
 {
-	padding: 20px;
+	margin:0 auto;
 }
 .header {
 	font-family: Tahoma, sans-serif;
 	font-size: 32px;
+	padding: 20px;
 }
 .subheader
 {
 	font-family: Tahoma, sans-serif;
-	color:#b5b2b1;
+	color:black; /*color:#b5b2b1; */
 	font-size: 16px;
+	padding: 20px;
 }
-
-#grad
-{
-        height: 200px;
-        background-color: red;
-        background-image: linear-gradient(red, yellow);
-}
+.column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
