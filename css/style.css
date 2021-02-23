@@ -1,3 +1,7 @@
+html
+{
+	padding: 20px;
+}
 .header {
 	font-family: Tahoma, sans-serif;
 	font-size: 32px;
@@ -7,6 +11,12 @@
 	font-family: Tahoma, sans-serif;
 	color:#b5b2b1;
 	font-size: 16px;
+}
+#grad
+{
+        height: 200px;
+        background-color: red;
+        background-image: linear-gradient(red, yellow);
 }
 
 .mainbody
