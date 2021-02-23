@@ -12,6 +12,7 @@ html
 	color:#b5b2b1;
 	font-size: 16px;
 }
+
 #grad
 {
         height: 200px;
@@ -19,23 +20,3 @@ html
         background-image: linear-gradient(red, yellow);
 }
 
-.mainbody
-{
-}
-
-head{
-	
-}
-
-nav {
-}
-
-body {
-}
-
-footer {
-}
-
-.wrapper
-{
-}
